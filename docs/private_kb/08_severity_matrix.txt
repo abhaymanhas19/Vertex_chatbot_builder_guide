@@ -1,0 +1,13 @@
+ACME PRIVATE KNOWLEDGE BASE — SUPPORT SEVERITY MATRIX
+Classification: Internal training sample
+Last updated: 2026-09-01
+
+Severity 1 (Critical): Production service is broadly unavailable or a security incident creates immediate material risk, with no reasonable workaround. Enterprise Severity 1 cases receive 24x7 response.
+
+Severity 2 (High): Major functionality is severely degraded for many users, but the service remains partially usable or a workaround exists.
+
+Severity 3 (Normal): Limited-impact defect, configuration issue, question, or issue with a practical workaround.
+
+Severity 4 (Low): Feature request, cosmetic issue, documentation feedback, or general guidance.
+
+Severity should reflect current business impact, not the customer's preferred response speed.

@@ -1,0 +1,9 @@
+ACME PRIVATE KNOWLEDGE BASE — IP ALLOWLIST
+Classification: Internal training sample
+Last updated: 2026-04-12
+
+Enterprise administrators can restrict Agent Console access by source IP or CIDR range. The allowlist applies after authentication and is evaluated for each new session.
+
+Before enabling the restriction, administrators should add all corporate egress ranges and at least one tested administrative recovery path. Incorrect allowlists can lock administrators out of the console.
+
+API traffic is controlled separately. Enabling a console allowlist does not automatically restrict the Intake API.

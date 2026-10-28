@@ -1,0 +1,12 @@
+ACME PRIVATE KNOWLEDGE BASE — KNOWN LIMITATIONS
+Classification: Internal training sample
+Last updated: 2026-09-28
+
+Known limitations for this fictional product:
+- The search index can take several minutes to reflect newly imported archive content.
+- The Agent Console does not support offline mode.
+- Bulk exports cannot be generated for more than 24 months in a single request.
+- A workspace can have at most 20 active webhook subscriptions.
+- Local password reset is not applicable to SSO-only users.
+
+If a requested behavior is not documented in the private knowledge base, support agents should say that the documentation does not provide enough information rather than inventing a policy.

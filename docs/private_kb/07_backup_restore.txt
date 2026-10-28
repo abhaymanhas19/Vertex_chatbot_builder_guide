@@ -1,0 +1,9 @@
+ACME PRIVATE KNOWLEDGE BASE — BACKUP AND RESTORE
+Classification: Internal training sample
+Last updated: 2026-05-30
+
+AcmeDesk performs platform-level backups for disaster recovery. These backups are not exposed as a customer self-service file restore feature.
+
+Administrators can export ticket data using the Bulk Export feature. Enterprise customers can schedule exports to their own cloud storage account.
+
+A support engineer cannot restore an individual ticket from the disaster-recovery backup set. For accidental deletion investigations, collect the ticket ID, approximate deletion time, workspace ID, and actor if known, then escalate to Data Operations.

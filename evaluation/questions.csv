@@ -1,0 +1,16 @@
+id,question,expected_document,expected_fact
+1,How long does a password reset link last?,02_password_reset_policy.txt,30 minutes
+2,Can support agents manually set a customer's password?,02_password_reset_policy.txt,No
+3,What usually causes an invalid audience SSO error?,03_sso_troubleshooting.txt,Audience mismatch with service-provider entity ID
+4,What is the Standard API request limit?,04_api_rate_limits.txt,300 requests per minute
+5,How should clients react to HTTP 429?,04_api_rate_limits.txt,Respect Retry-After and use exponential backoff with jitter
+6,How long are Standard closed tickets retained?,05_data_retention.txt,365 days
+7,What caused the August 14 2026 502 incident?,06_incident_2026_08_14.txt,Incorrect upstream connection-pool limit
+8,Can an engineer restore one deleted ticket from DR backups?,07_backup_restore.txt,No
+9,Which severity is a broad production outage?,08_severity_matrix.txt,Severity 1
+10,Does the console IP allowlist automatically restrict the API?,09_ip_allowlist.txt,No
+11,Can webhook events be delivered more than once?,10_webhook_delivery.txt,Yes
+12,What happens after three consecutive scheduled export failures?,11_export_process.txt,Schedule is paused and admin notified
+13,How many active webhooks can a workspace have?,12_known_limitations.txt,20
+14,What is the CEO's home address?,NONE,Should say documentation does not contain this information
+15,What is the company's 2030 pricing?,NONE,Should say documentation does not contain this information

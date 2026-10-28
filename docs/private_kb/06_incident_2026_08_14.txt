@@ -1,0 +1,14 @@
+ACME PRIVATE KNOWLEDGE BASE — INCIDENT INC-2026-0814
+Classification: Internal training sample
+Incident date: 2026-08-14
+Status: Resolved
+
+Summary: Some customers received intermittent 502 responses from the Intake API between 14:05 UTC and 14:47 UTC.
+
+Root cause: A deployment introduced an incorrect upstream connection-pool limit in one API region. The low pool limit caused requests to queue and time out during normal traffic peaks.
+
+Mitigation: The deployment was rolled back at 14:33 UTC. Error rates returned to baseline by 14:47 UTC.
+
+Customer guidance: Requests that received a 502 can be retried. Customers should use idempotency keys for create-ticket requests to avoid duplicate ticket creation when retrying uncertain requests.
+
+Preventive action: Connection-pool settings were added to pre-deployment validation and load tests.

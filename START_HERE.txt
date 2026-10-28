@@ -1,0 +1,11 @@
+START HERE
+==========
+
+1. Open BUILD_GUIDE.md.
+2. The folder docs/private_kb contains 12 synthetic private documents for practice.
+3. Replace YOUR_PROJECT_ID / YOUR_BUCKET values as instructed.
+4. Use Google Cloud Shell if you do not want to install anything locally.
+5. Do not upload real confidential data until you have reviewed IAM, access controls, and your organization's data-handling requirements.
+
+Goal of the lab:
+Private documents -> Cloud Storage -> Agent Search data store -> grounded answers + citations -> widget -> incremental refresh.

@@ -1,0 +1,11 @@
+ACME PRIVATE KNOWLEDGE BASE — DATA RETENTION
+Classification: Internal training sample
+Last updated: 2026-06-18
+
+Standard workspaces retain closed ticket content for 365 days. Enterprise workspaces can configure a retention period from 30 to 2,555 days.
+
+Audit logs are retained for 180 days on Standard and 730 days on Enterprise unless a separate export pipeline is configured.
+
+Deletion jobs run asynchronously. After a retention threshold is reached, content can remain visible for up to 24 hours while deletion is processed.
+
+Legal-hold workflows are available only on Enterprise. Content under an active legal hold is excluded from normal retention deletion until the hold is released by an authorized administrator.

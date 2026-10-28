@@ -1,0 +1,11 @@
+ACME PRIVATE KNOWLEDGE BASE — BULK EXPORT PROCESS
+Classification: Internal training sample
+Last updated: 2026-08-22
+
+Workspace administrators can start a bulk ticket export from Admin > Data > Exports. The export is created asynchronously and a download link appears when processing completes.
+
+Exports contain ticket fields, comments, timestamps, tags, and attachment references. Attachments are packaged separately when the attachment option is selected.
+
+Large exports may take several hours. Starting repeated exports for the same date range does not make processing faster.
+
+Enterprise customers can schedule recurring exports. If an automated export fails three consecutive times, the workspace administrator receives a notification and the schedule is paused until reviewed.

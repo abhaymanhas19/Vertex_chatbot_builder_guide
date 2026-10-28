@@ -1,0 +1,11 @@
+ACME PRIVATE KNOWLEDGE BASE — WEBHOOK DELIVERY
+Classification: Internal training sample
+Last updated: 2026-09-11
+
+Webhook deliveries are considered successful for HTTP status codes 200 through 299.
+
+For retryable failures, AcmeDesk retries delivery using increasing delays for up to 24 hours. A destination that continually fails may be temporarily disabled.
+
+Webhook consumers should verify event IDs and process them idempotently because the same event can be delivered more than once. Consumers should return a success response quickly and perform slow processing asynchronously.
+
+A 410 response is treated as a signal that the destination is intentionally gone and may cause the subscription to be disabled without the full retry window.

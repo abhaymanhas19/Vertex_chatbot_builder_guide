@@ -1,0 +1,12 @@
+ACME PRIVATE KNOWLEDGE BASE — SSO TROUBLESHOOTING
+Classification: Internal training sample
+Last updated: 2026-09-20
+
+Common SSO symptoms and checks:
+
+1. “Invalid audience” usually means the identity provider is sending an audience value that does not exactly match the AcmeDesk service-provider entity ID shown in Admin > Security > SSO.
+2. “Signature validation failed” usually indicates that the active signing certificate in AcmeDesk does not match the certificate used by the identity provider. Upload the current public signing certificate and retry.
+3. Login loops can occur when the NameID or primary email claim does not map to an existing AcmeDesk user.
+4. Clock-skew errors can occur when assertion timestamps are more than five minutes away from the expected time window.
+
+Before changing production SSO settings, export the current configuration. For Enterprise customers with a Severity 1 login outage, keep the incident bridge open while changes are tested.

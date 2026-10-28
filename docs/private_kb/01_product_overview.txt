@@ -1,0 +1,15 @@
+ACME PRIVATE KNOWLEDGE BASE — PRODUCT OVERVIEW
+Classification: Internal training sample
+Last updated: 2026-09-15
+
+AcmeDesk is a fictional cloud help-desk product used in this training project. It supports ticket intake from email, web forms, and API clients. The Standard plan supports up to 50 agents and 20,000 active tickets per month. The Enterprise plan supports SSO, audit-log export, custom retention policies, and private network connectivity.
+
+Primary components:
+- Agent Console: browser UI for support staff.
+- Intake API: REST API for creating and updating tickets.
+- Rules Engine: routing, tagging, and escalation automation.
+- Knowledge Search: internal article and incident search.
+
+The default API base URL used in examples is https://api.example.invalid/v1. This URL is intentionally non-functional because this is a synthetic training corpus.
+
+Support hours for Standard customers are Monday through Friday, 09:00–17:00 in the customer's contracted support region. Enterprise customers receive 24x7 support for Severity 1 incidents.
